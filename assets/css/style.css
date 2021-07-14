@@ -142,7 +142,10 @@ padding: 12px 24px 12px 24px;
     position: relative;
     padding-top: 50%;
     margin-top: 28px;
-    background: url('/assets/img/img1.jpg') top center / cover no-repeat ;
+    background-image: url('/assets/img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 
 }
 #slider .text-content{  
